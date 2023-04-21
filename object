@@ -1,0 +1,11 @@
+public class Student{
+public static void main(String args[]) {
+TestStudent t=new TestStudent();
+System.out.println(t.id);
+System.out.println(t.str);
+}
+}
+class TestStudent{
+int id;
+String str;
+}
